@@ -65,8 +65,8 @@ export const newsApi = createApi({
                     page,
                     apiKey,
                     sortBy,
-                    from: oldestAllowed, // Add parameter for the oldest allowed article
-                    to: newestAllowed // Add parameter for the newest allowed article
+                    from: oldestAllowed,
+                    to: newestAllowed
                 }
             }),
             transformResponse: (response: NewsResponse) => {
